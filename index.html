@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestProject</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper">
+            <div class="square"></div>
+           <div class="label-wrapper">
+            <label class="tab sign-tab" title="Вход"><span class="sign-arrow">&larr;</span>Вход</label>
+            <label class="tab reg-tab big-font" title="Регистрация">Регистрация <span class="reg-arrow del">&rarr;</span></label>
+           </div>           
+            <!--ФОРМА ВХОДА-->
+            <form class="tab-form sign-form del">
+                <p class="label">Логин</p>
+                <input class="input" type="text" placeholder="User Name">
+                <p class="label">Пароль</p>
+                <input class="input" type="password" placeholder="User Password">
+                <a href="#">Забыли пароль?</a>
+                <button class="sign-btn">Войти</button>
+                <p class="problem-text">В случае возникновения проблем обратитесь к <a href="#">администратору</a></p>
+            </form>
+            <!--ФОРМА РЕГИСТРАЦИИ-->
+            
+            <form class="tab-form reg-form">
+                <p class="label">Логин</p>
+                <input class="input" type="text" placeholder="User Name">
+                <p class="label">E-mail</p>
+                <input class="input" type="email" placeholder="User Email">
+                <p class="label">Пароль</p>
+                <input class="input" type="password" placeholder="User Password">
+                <p class="label">Повторите пароль</p>
+                <input class="input" type="password" placeholder="Repeat Password">
+                <button class="reg-btn">Зарегистрироваться</button>
+                <p class="problem-text">В случае возникновения проблем обратитесь к <a href="#">администратору</a></p>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
